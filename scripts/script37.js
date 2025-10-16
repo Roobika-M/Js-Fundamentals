@@ -5,5 +5,5 @@ let b = "hi";
 let c = "Hello";
 
 let result = a ?? b || c; // error without parantheses
-let result = a ?? (b || c); // correct usage with parantheses
+result = a ?? (b || c); // correct usage with parantheses
 console.log(result); // hi
